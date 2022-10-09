@@ -5,8 +5,8 @@ import streamlit as st
 numerator = st.text_area("numerator", value = "x")
 denominator = st.text_area("denominator", value = "1")
 
-xmin = st.slider("xmin", min_value=-100.0, max_value=100.0, value = -10.0)
-xmax = st.slider("xmax", min_value=-100.0, max_value=100.0, value = 10.0)
+xmin = st.slider("xmin", min_value=-100.0, max_value=100.0, value = -20.0)
+xmax = st.slider("xmax", min_value=-100.0, max_value=100.0, value = 20.0)
 
 ymin = st.slider("ymin", min_value=-100.0, max_value=100.0, value = -10.0)
 ymax = st.slider("ymax", min_value=-100.0, max_value=100.0, value = 10.0)
